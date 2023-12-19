@@ -1,4 +1,4 @@
-Claro, el modelo de Asignación Diferida (Deferred Acceptance Algorithm, en inglés) es un método utilizado principalmente para resolver problemas de emparejamiento en situaciones como la asignación de estudiantes a escuelas o la de médicos residentes a hospitales. Este modelo fue desarrollado por Lloyd Shapley y Alvin Roth, por lo que también se le conoce como el Algoritmo de Gale-Shapley, en honor a David Gale, quien también contribuyó a su desarrollo.
+El modelo de Asignación Diferida (Deferred Acceptance Algorithm, en inglés) es un método utilizado principalmente para resolver problemas de emparejamiento en situaciones como la asignación de estudiantes a escuelas o la de médicos residentes a hospitales. Este modelo fue desarrollado por Lloyd Shapley y Alvin Roth, por lo que también se le conoce como el Algoritmo de Gale-Shapley, en honor a David Gale, quien también contribuyó a su desarrollo.
 
 El proceso funciona de la siguiente manera:
 
