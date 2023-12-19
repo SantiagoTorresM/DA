@@ -1,0 +1,15 @@
+Claro, el modelo de Asignación Diferida (Deferred Acceptance Algorithm, en inglés) es un método utilizado principalmente para resolver problemas de emparejamiento en situaciones como la asignación de estudiantes a escuelas o la de médicos residentes a hospitales. Este modelo fue desarrollado por Lloyd Shapley y Alvin Roth, por lo que también se le conoce como el Algoritmo de Gale-Shapley, en honor a David Gale, quien también contribuyó a su desarrollo.
+
+El proceso funciona de la siguiente manera:
+
+1. **Preferencias**: Cada participante (por ejemplo, estudiantes o médicos residentes) enumera sus preferencias en un orden de mayor a menor. Del mismo modo, las "instituciones" (como escuelas o hospitales) también clasifican a los participantes según sus preferencias o criterios.
+
+2. **Ronda de Propuestas**: En la primera ronda, cada participante hace una "propuesta" a su primera opción. Luego, cada institución revisa las propuestas recibidas y provisionalmente "acepta" a aquellos participantes que prefiere, basándose en su lista de preferencias, pero solo hasta llenar su cupo. Si reciben más propuestas de las que pueden aceptar, rechazan las menos preferidas.
+
+3. **Rechazos y Nuevas Propuestas**: Los participantes rechazados hacen propuestas a su siguiente opción preferida en la siguiente ronda. Las instituciones consideran tanto las nuevas propuestas como las provisionales que ya tenían, seleccionando de nuevo hasta llenar su cupo y rechazando el resto.
+
+4. **Iteración**: Este proceso se repite en varias rondas. En cada ronda, los participantes rechazados en la ronda anterior proponen a la siguiente opción en su lista de preferencias.
+
+5. **Estabilidad**: El algoritmo termina cuando todos los participantes están emparejados o han sido rechazados por todas sus opciones. Un emparejamiento se considera "estable" si no hay dos participantes que se prefieran mutuamente sobre sus emparejamientos actuales.
+
+Este modelo es particularmente notable por su capacidad para crear emparejamientos estables, lo que significa que no hay dos individuos que preferirían estar emparejados el uno con el otro sobre sus emparejamientos actuales. Además, el modelo garantiza que todos los participantes reciban la mejor opción disponible según sus preferencias.
